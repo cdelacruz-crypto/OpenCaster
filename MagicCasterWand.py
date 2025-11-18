@@ -1,7 +1,7 @@
 import asyncio
 from bleak import BleakClient, BleakScanner
 
-DEVICE_NAME = "MCW-7DFE"
+DEVICE_NAME = "KS03~004A9D"
 SERVICE_UUID = "57420003-587e-48a0-974c-544d6163c577"
 CHAR_UUID = SERVICE_UUID  # Your characteristic for notifications
 PACKETS = ["021002", "02100a", "02100b"]
